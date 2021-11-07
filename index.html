@@ -2,27 +2,69 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
     <title>Adam Dukkon</title>
+
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Questrial&display=swap" rel="stylesheet">
 
     <!-- Favicons -->
     <link href="assets/img/favicon.jpg" rel="icon">
 
-
+    <!-- css style -->
     <style>
         body {
-            background-image: url('assets/img/bg.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-color: #3e5641;
+            margin: 0;
+        }
+
+        .outer-container {
+            position: absolute;
+            display: table;
+            width: 100%;
+            height: 100%;
+            background: #3e5641;
+        }
+
+        .inner-container {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        .centered-content {
+            display: inline-block;
+            text-align: center;
+            padding: 20px;
+            font-size: 8.3vw;
+            font-family: 'Abril Fatface', cursive;
+            color: #ff715b;
+        }
+
+        .secondary {
+
+            text-align: center;
+            font-size: 5.3vw;
+            font-family: 'Questrial', sans-serif;
+            color: #ffffff;
         }
     </style>
 
 
 </head>
 
-    <body>
-    </body>
+<body>
+
+    <div class="outer-container">
+        <div class="inner-container">
+            <div class="centered-content">
+                Coming Soon
+                <p class="secondary">contact: adam@dukkon.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
